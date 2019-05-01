@@ -8,17 +8,17 @@ const Header = ({ siteTitle, headerWhite }) => (
       <div className="row">
         <div className="col-lg-12">
           <nav className="main-nav">
-            <a href="orange-index.html" className="logo">
+            <Link to="/" className="logo">
               <img src="../images/orange-logo-white.svg" className="light-logo" alt="Gaus"/>
               <img src="../images/orange-logo-dark.svg" className="dark-logo" alt="Gaus"/>
-            </a>
+            </Link>
             <ul className="nav">
-              <li><a href="orange-index.html">HOME</a></li>
-              <li><a href="orange-our-work.html">OUR WORK</a></li>
-              <li><a href="orange-about-us.html">ABOUT US</a></li>
-              <li><a href="orange-services.html">SERVICES</a></li>
-              <li><a href="orange-blog.html">BLOG</a></li>
-              <li><a href="orange-contact.html" className="btn-nav-line">CONTACT</a></li>
+              <li><Link to="/">HOME</Link></li>
+              <li><Link to="orange-our-work.html">OUR WORK</Link></li>
+              <li><Link to="orange-about-us.html">ABOUT US</Link></li>
+              <li><Link to="orange-services.html">SERVICES</Link></li>
+              <li><Link to="orange-blog.html">BLOG</Link></li>
+              <li><Link to="orange-contact.html" className="btn-nav-line">CONTACT</Link></li>
             </ul>
             <a className='menu-trigger'>
               <span>Menu</span>
