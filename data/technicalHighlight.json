@@ -120,5 +120,27 @@
       "In app purchase",
       "Organize all notes: delete item, reorder item"
     ]
+  },
+  {
+    "id": "com.yudapramadjunaedi.io",
+    "highlights": [
+      "Rich text editor",
+      "Create note",
+      "Styling with color and attributes such as highlighting",
+      "search animation",
+      "keyword highlighting",
+      "increase and decrease font size"
+    ]
+  },
+  {
+    "id": "org.reactjs.native.example.gol",
+    "highlights": [
+      "Rich text editor",
+      "Create note",
+      "Styling with color and attributes such as highlighting",
+      "search animation",
+      "find text keyword highlighting",
+      "increase and decrease font size"
+    ]
   }
 ]
