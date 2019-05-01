@@ -219,5 +219,59 @@
       "Open in-app browser to see full web page",
       "In-App Support"
     ]
+  },
+  {
+    "id": "com.yudapramadjunaedi.dbi",
+    "highlights": [
+      "Monetization using admob",
+      "Monetization using In App Purchase",
+      "Google search",
+      "Offline browsing",
+      "Organize browsing bookmark",
+      "Organize search result",
+      "Offline reading",
+      "Organize reading bookmark",
+      "4 themes for reading: light, night, sepia, grey",
+      "Change font",
+      "Change text size",
+      "Open in-app browser to see full web page",
+      "In-App Support"
+    ]
+  },
+  {
+    "id": "com.yudapramadjunaedi.berita",
+    "highlights": [
+      "Monetization using admob",
+      "Monetization using In App Purchase",
+      "Google search",
+      "Offline browsing",
+      "Organize browsing bookmark",
+      "Organize search result",
+      "Offline reading",
+      "Organize reading bookmark",
+      "4 themes for reading: light, night, sepia, grey",
+      "Change font",
+      "Change text size",
+      "Open in-app browser to see full web page",
+      "In-App Support"
+    ]
+  },
+  {
+    "id": "com.yudapramadjunaedi.docs",
+    "highlights": [
+      "Monetization using admob",
+      "Monetization using In App Purchase",
+      "Google search",
+      "Offline browsing",
+      "Organize browsing bookmark",
+      "Organize search result",
+      "Offline reading",
+      "Organize reading bookmark",
+      "4 themes for reading: light, night, sepia, grey",
+      "Change font",
+      "Change text size",
+      "Open in-app browser to see full web page",
+      "In-App Support"
+    ]
   }
 ]
