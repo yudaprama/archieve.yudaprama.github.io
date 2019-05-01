@@ -6,6 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import ServiceItem from "../components/service-item"
 import PromiseItem from "../components/promise-item"
+import FeaturedAppIcon from "../components/featured-app-icon"
 
 const IndexPage = () => (
   <Layout>
@@ -32,46 +33,11 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-12">
             <div className="apps">
-              <a href="orange-app-single.html" className="app-item">
-                <div className="icon">
-                  <img src="../images/icons/apps/1.png" className="img-fluid" alt=""/>
-                </div>
-              </a>
-              <a href="orange-app-single.html" className="app-item">
-                <div className="icon">
-                  <img src="../images/icons/apps/2.png" className="img-fluid" alt=""/>
-                </div>
-              </a>
-              <a href="orange-app-single.html" className="app-item">
-                <div className="icon">
-                  <img src="../images/icons/apps/3.png" className="img-fluid" alt=""/>
-                </div>
-              </a>
-              <a href="orange-app-single.html" className="app-item">
-                <div className="icon">
-                  <img src="../images/icons/apps/4.png" className="img-fluid" alt=""/>
-                </div>
-              </a>
-              <a href="orange-app-single.html" className="app-item">
-                <div className="icon">
-                  <img src="../images/icons/apps/5.png" className="img-fluid" alt=""/>
-                </div>
-              </a>
-              <a href="orange-app-single.html" className="app-item">
-                <div className="icon">
-                  <img src="../images/icons/apps/6.png" className="img-fluid" alt=""/>
-                </div>
-              </a>
-              <a href="orange-app-single.html" className="app-item">
-                <div className="icon">
-                  <img src="../images/icons/apps/7.png" className="img-fluid" alt=""/>
-                </div>
-              </a>
-              <a href="orange-app-single.html" className="app-item">
-                <div className="icon">
-                  <img src="../images/icons/apps/8.png" className="img-fluid" alt=""/>
-                </div>
-              </a>
+              <FeaturedAppIcon src={'https://is5-ssl.mzstatic.com/image/thumb/Purple127/v4/57/5e/25/575e253e-c07b-fc2c-2821-e282960d132b/mzl.lvohcjyz.png/146x0w.jpg'} />
+              <FeaturedAppIcon src={'https://is5-ssl.mzstatic.com/image/thumb/Purple127/v4/57/5e/25/575e253e-c07b-fc2c-2821-e282960d132b/mzl.lvohcjyz.png/146x0w.jpg'} />
+              <FeaturedAppIcon src={'https://is5-ssl.mzstatic.com/image/thumb/Purple127/v4/57/5e/25/575e253e-c07b-fc2c-2821-e282960d132b/mzl.lvohcjyz.png/146x0w.jpg'} />
+              <FeaturedAppIcon src={'https://is5-ssl.mzstatic.com/image/thumb/Purple127/v4/57/5e/25/575e253e-c07b-fc2c-2821-e282960d132b/mzl.lvohcjyz.png/146x0w.jpg'} />
+              <FeaturedAppIcon src={'https://is5-ssl.mzstatic.com/image/thumb/Purple127/v4/57/5e/25/575e253e-c07b-fc2c-2821-e282960d132b/mzl.lvohcjyz.png/146x0w.jpg'} />
             </div>
           </div>
         </div>
