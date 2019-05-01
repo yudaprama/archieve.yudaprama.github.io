@@ -1,0 +1,27 @@
+[
+  {
+    "id": "com.yudapramadjunaedi.authorized",
+    "highlights": [
+      "Authentication",
+      "facebook login",
+      "google login",
+      "camera",
+      "QR code scanner",
+      "barcode scanner",
+      "video player",
+      "dynamic theme (dark mode and light mode)",
+      "collapsible toolbar",
+      "share",
+      "snackbar",
+      "drawer",
+      "side menu",
+      "shared preference",
+      "local storage",
+      "push notification",
+      "image carousel",
+      "card item",
+      "list tile",
+      "Floating action button"
+    ]
+  }
+]

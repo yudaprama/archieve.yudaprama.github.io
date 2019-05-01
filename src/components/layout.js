@@ -11,7 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 
-const Layout = ({ children }) => (
+const Layout = ({ children, headerWhite }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -24,7 +24,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header headerWhite={headerWhite} siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
         <footer>
           <div className="container">
@@ -92,6 +92,11 @@ const Layout = ({ children }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  headerWhite: PropTypes.bool,
+}
+
+Layout.defaultProps = {
+  headerWhite: false,
 }
 
 export default Layout

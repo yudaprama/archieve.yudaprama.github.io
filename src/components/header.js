@@ -2,8 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header className="header-area">
+const Header = ({ siteTitle, headerWhite }) => (
+  <header className={`header-area ${headerWhite ? 'header-white' : ''}`}>
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
@@ -32,10 +32,12 @@ const Header = ({ siteTitle }) => (
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  headerWhite: PropTypes.bool,
 }
 
 Header.defaultProps = {
   siteTitle: ``,
+  headerWhite: false,
 }
 
 export default Header
