@@ -1,7 +1,7 @@
 const gplay = require('google-play-scraper');
 const fs = require("fs");
 
-const appIds = ['com.yuda.spss','com.yuda.stata'];
+const appIds = ['com.yudapramadjunaedi.authorized','com.yuda.spss','com.yuda.stata','com.yudaprama.fifteenpuzzle','com.yuda.movie','com.yudaprama.candycrush','com.yudaprama.cryptoexplorer','com.yudapramadjunaedi.coin','com.yudaprama.tetris_pro','com.yudaprama.sensor','com.yuda.cetak'];
 
 async function getAppdata(appId) {
   return await gplay.app({ appId: appId });
@@ -19,7 +19,7 @@ async function run() {
     let data = await getAppdata(appId)
     allData.push(data)
   })
-  fs.writeFile('PlayStore.json', JSON.stringify(allData), 'utf8', () => {});
+  fs.writeFile('data/PlayStore.json', JSON.stringify(allData), 'utf8', () => {});
 }
 
 run()
