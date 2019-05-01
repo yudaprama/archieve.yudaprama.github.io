@@ -5,6 +5,7 @@ import SEO from "./seo"
 import CoverDetailApp from "./cover-detail-app"
 
 const DetailApp = ({title, icon, description, androidUrl, iosUrl, screenShotUrls, highlights}) => {
+
   return (
     <Layout headerWhite={true}>
       <SEO title={title} />
@@ -91,8 +92,8 @@ const AppHeader = ({title, icon, androidUrl, iosUrl}) => (
       </div>
       <div className="col-lg-6 col-md-6 col-sm-12">
         <div className="download-buttons">
-          {androidUrl ? <a target={'_blank'} href={androidUrl}><img src="../images/download-apple-store.svg" alt=""/></a> : null}
-          {iosUrl ? <a target={'_blank'} href={iosUrl}><img src="../images/download-google-play.svg" alt=""/></a> : null}
+          {iosUrl ? <a target={'_blank'} href={iosUrl}><img src="../images/download-apple-store.svg" alt=""/></a> : null}
+          {androidUrl ? <a target={'_blank'} href={androidUrl}><img src="../images/download-google-play.svg" alt=""/></a> : null}
         </div>
       </div>
     </div>

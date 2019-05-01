@@ -23,5 +23,26 @@
       "list tile",
       "Floating action button"
     ]
+  }, 
+  {
+    "id": "com.yudapramadjunaedi.inventory",
+    "highlights": [
+      "Side menu drawer",
+      "Barcode Scanning",
+      "sales report with chart",
+      "iCloud backup",
+      "Handwritten signature",
+      "Integrating with Apple AirPrint for printing receipt",
+      "In-App Calculator",
+      "In-App Mail",
+      "Zoom in/out chart",
+      "In-App Support",
+      "Universal App",
+      "Sales Discount",
+      "Sales Tax",
+      "Receipt",
+      "Receipt and reporting use your local timezone",
+      "Scroll horizontally for report header (Qty, Sales, Discount, Tax, Profit) and chart"
+    ]
   }
 ]
