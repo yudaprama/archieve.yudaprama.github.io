@@ -201,5 +201,23 @@
       "Organize all notes: delete item, reorder item",
       "In app purchase"
     ]
+  },
+  {
+    "id": "com.yudapramadjunaedi.browse",
+    "highlights": [
+      "Monetization using admob",
+      "Monetization using In App Purchase",
+      "Google search",
+      "Offline browsing",
+      "Organize browsing bookmark",
+      "Organize search result",
+      "Offline reading",
+      "Organize reading bookmark",
+      "4 themes for reading: light, night, sepia, grey",
+      "Change font",
+      "Change text size",
+      "Open in-app browser to see full web page",
+      "In-App Support"
+    ]
   }
 ]
