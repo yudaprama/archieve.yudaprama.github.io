@@ -1,6 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
-import { StaticQuery } from "../../.cache/gatsby-browser-entry"
+import { graphql, StaticQuery } from "gatsby"
 import DetailApp from "../components/detail-app"
 
 const query = graphql`
@@ -22,7 +21,7 @@ query {
     }
   ) {
     url: trackViewUrl
-    screenshotUrls
+    screenShotUrls: screenshotUrls
   }
   technicalHighlight: technicalHighlightJson(
     id: {
@@ -39,7 +38,16 @@ const AuthorizedPage = () => (
     query={query}
     render={(data) => {
       const {android, ios, technicalHighlight} = data;
-      return <DetailApp android={android} ios={ios} highlights={technicalHighlight.highlights} />
+      return (
+        <DetailApp
+          highlights={technicalHighlight.highlights}
+          description={android.description}
+          icon={android.icon}
+          screenShotUrls={ios.screenShotUrls}
+          title={android.title}
+          androidUrl={android.url}
+          iosUrl={ios.url} />
+      )
     }}
   />
 )

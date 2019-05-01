@@ -4,8 +4,7 @@ import Layout from "./layout"
 import SEO from "./seo"
 import CoverDetailApp from "./cover-detail-app"
 
-const DetailApp = ({android, ios, highlights}) => {
-  const {title, icon, description} = android;
+const DetailApp = ({title, icon, description, androidUrl, iosUrl, screenShotUrls, highlights}) => {
   return (
     <Layout headerWhite={true}>
       <SEO title={title} />
@@ -20,8 +19,8 @@ const DetailApp = ({android, ios, highlights}) => {
                   <AppHeader
                     title={title}
                     icon={icon}
-                    androidUrl={android.url}
-                    iosUrl={ios.url} />
+                    androidUrl={androidUrl}
+                    iosUrl={iosUrl} />
 
                   <div className="item">
                     <div className="content">
@@ -34,10 +33,10 @@ const DetailApp = ({android, ios, highlights}) => {
                     <div className="content">
                       <h5 className="title">Screenshots</h5>
                       <div className="row gallery">
-                        {ios.screenshotUrls.map((screenshotUrl) => (
+                        {screenShotUrls.map((screenShotUrl) => (
                           <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                            <a className="gallery-item" href={screenshotUrl} title={title}>
-                              <img src={screenshotUrl} className="img-fluid" alt=""/>
+                            <a className="gallery-item" href={screenShotUrl} title={title}>
+                              <img src={screenShotUrl} className="img-fluid" alt=""/>
                             </a>
                           </div>
                         ))}
@@ -101,9 +100,13 @@ const AppHeader = ({title, icon, androidUrl, iosUrl}) => (
 )
 
 DetailApp.propTypes = {
-  android: PropTypes.object,
-  ios: PropTypes.object,
-  highlights: PropTypes.array,
+  title: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  androidUrl: PropTypes.string,
+  iosUrl: PropTypes.string,
+  screenShotUrls: PropTypes.string.isRequired,
+  highlights: PropTypes.array.isRequired,
 }
 
 export default DetailApp
