@@ -143,5 +143,63 @@
       "increase and decrease font size",
       "In-App Support"
     ]
+  },
+  {
+    "id": "com.yudapramadjunaedi.eviews",
+    "highlights": [
+      "Side Menu",
+      "Powerful search for programming documentation utilizing machine learning",
+      "Bookmark search result. It will be saved in Browse page and you can access it offline",
+      "Organize search result: delete item, reorder item",
+      "Taking note",
+      "In-app-support",
+      "Search",
+      "Change themes (light, night, sepia, grey)",
+      "Change text size",
+      "Change font",
+      "Syntax highlighting",
+      "Horizontal scroll for table, code block, and output block",
+      "Offline bookmark",
+      "Organize bookmark: reorder, delete, etc",
+      "In app purchase",
+      "Organize all notes: delete item, reorder item"
+    ]
+  },
+  {
+    "id": "org.reactjs.native.example.sal",
+    "highlights": [
+      "Side Menu",
+      "Salary based and wage based",
+      "Gross Income. An individual's total personal income, before accounting for taxes or deductions",
+      "Income from overtime works",
+      "Standard deduction that depend on Filing Status",
+      "In-app-support",
+      "Dependent deduction calculated according to how many dependents you have",
+      "Additional standard deduction for elderly or blind taxpayers. The additional standard deduction amount increases if the individual is also unmarried",
+      "Income Tax Brackets. Income tax has 7 brackets. The amount of tax you owe depends on your income level and filing status. Moving into a higher tax bracket does not mean that all of your income will be taxed at a higher rate. Instead, only the money that you earn within a particular bracket is subject to that particular tax rate",
+      "Personal exemption and Personal Exemption Phaseout (PEP)",
+      "Payroll tax support for social security or old age, survivor and disability insurance (OASDI) and medicare"
+    ]
+  },
+  {
+    "id": "com.yudapramadjunaedi.documentation",
+    "highlights": [
+      "Powerful search for programming documentation utilizing machine learning",
+      "Bookmark search result. It will be saved in Browse page and you can access it offline",
+      "Organize search result: delete item, reorder item",
+      "Taking note",
+      "In-app-support",
+      "Search",
+      "Change themes (light, night, sepia, grey)",
+      "Change text size",
+      "Change font",
+      "Syntax highlighting",
+      "Horizontal scroll for table, code block, and output block",
+      "Offline bookmark",
+      "Organize bookmark: reorder, delete, etc",
+      "In app purchase",
+      "Organize all notes: delete item, reorder item",
+      "In app purchase"
+    ]
   }
 ]
