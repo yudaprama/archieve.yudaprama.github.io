@@ -99,5 +99,26 @@
       "Change theme",
       "Pick different font"
     ]
+  },
+  {
+    "id": "com.yudapramadjunaedi.r",
+    "highlights": [
+      "Side Menu",
+      "Powerful search for programming documentation utilizing machine learning",
+      "Bookmark search result. It will be saved in Browse page and you can access it offline",
+      "Organize search result: delete item, reorder item",
+      "Taking note",
+      "In-app-support",
+      "Search",
+      "Change themes (light, night, sepia, grey)",
+      "Change text size",
+      "Change font",
+      "Syntax highlighting",
+      "Horizontal scroll for table, code block, and output block",
+      "Offline bookmark",
+      "Organize bookmark: reorder, delete, etc",
+      "In app purchase",
+      "Organize all notes: delete item, reorder item"
+    ]
   }
 ]
