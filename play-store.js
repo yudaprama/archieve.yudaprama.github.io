@@ -1,5 +1,6 @@
 const gplay = require('google-play-scraper');
 const fs = require("fs");
+const https = require("https");
 
 const appIds = ['com.yudapramadjunaedi.authorized','com.yuda.spss','com.yuda.stata','com.yudaprama.fifteenpuzzle','com.yuda.movie','com.yudaprama.candycrush','com.yudaprama.cryptoexplorer','com.yudapramadjunaedi.coin','com.yudaprama.tetris_pro','com.yudaprama.sensor','com.yuda.cetak'];
 
@@ -21,5 +22,19 @@ async function run() {
   })
   fs.writeFile('data/PlayStore.json', JSON.stringify(allData), 'utf8', () => {});
 }
+
+https.get('https://itunes.apple.com/lookup?id=1165337910&entity=software', function(res){
+  let body = ""
+
+  res.on('data', function(chunk){
+    body += chunk;
+  });
+
+  res.on('end', function(){
+    fs.writeFile('data/AppStore.json', body, 'utf8', () => {});
+  });
+}).on('error', function(e){
+  console.log("Got an error: ", e);
+});
 
 run()
