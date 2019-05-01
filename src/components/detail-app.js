@@ -74,7 +74,7 @@ const AppHeader = ({title, icon, androidUrl, iosUrl}) => (
     <div className="row">
       <div className="col-lg-1 col-md-2 col-sm-12">
         <div className="icon">
-          <img src={icon} className="img-fluid" alt=""/>
+          <img style={{borderRadius:'20%'}} src={icon} className="img-fluid" alt=""/>
         </div>
       </div>
       <div className="col-lg-5 col-md-4 col-sm-12">
@@ -92,8 +92,8 @@ const AppHeader = ({title, icon, androidUrl, iosUrl}) => (
       </div>
       <div className="col-lg-6 col-md-6 col-sm-12">
         <div className="download-buttons">
-          {iosUrl ? <a target={'_blank'} href={iosUrl}><img src="../images/download-apple-store.svg" alt=""/></a> : null}
-          {androidUrl ? <a target={'_blank'} href={androidUrl}><img src="../images/download-google-play.svg" alt=""/></a> : null}
+          <a target={'_blank'} href={iosUrl}><img src="../images/download-apple-store.svg" alt=""/></a>
+          <a target={'_blank'} href={androidUrl}><img src="../images/download-google-play.svg" alt=""/></a>
         </div>
       </div>
     </div>

@@ -44,5 +44,60 @@
       "Receipt and reporting use your local timezone",
       "Scroll horizontally for report header (Qty, Sales, Discount, Tax, Profit) and chart"
     ]
+  },
+  {
+    "id": "com.yudapramadjunaedi.sales",
+    "highlights": [
+      "Side menu drawer",
+      "Barcode Scanning",
+      "sales report with chart",
+      "iCloud backup",
+      "Handwritten signature",
+      "Integrating with Apple AirPrint for printing receipt",
+      "In-App Calculator",
+      "In-App Mail",
+      "Zoom in/out chart",
+      "In-App Support",
+      "Universal App",
+      "Sales Discount",
+      "Sales Tax",
+      "Receipt",
+      "Receipt and reporting use your local timezone",
+      "Scroll horizontally for report header (Qty, Sales, Discount, Tax, Profit) and chart"
+    ]
+  },
+  {
+    "id": "com.yudapramadjunaedi.pos",
+    "highlights": [
+      "Side menu drawer",
+      "Barcode Scanning",
+      "sales report with chart",
+      "iCloud backup",
+      "Handwritten signature",
+      "Integrating with Apple AirPrint for printing receipt",
+      "In-App Calculator",
+      "In-App Mail",
+      "Zoom in/out chart",
+      "In-App Support",
+      "Universal App",
+      "Sales Discount",
+      "Sales Tax",
+      "Receipt",
+      "Receipt and reporting use your local timezone",
+      "Scroll horizontally for report header (Qty, Sales, Discount, Tax, Profit) and chart"
+    ]
+  },
+  {
+    "id": "com.yudapramadjunaedi.kbbi",
+    "highlights": [
+      "Web scrapping",
+      "Search the meaning of Indonesian word from Kamus besar Bahasa Indonesia",
+      "Translate it to English equivalent and get the meaning from Oxford Dictionary",
+      "Bookmark search result",
+      "Search history",
+      "Increase or decrease text size",
+      "Change theme",
+      "Pick different font"
+    ]
   }
 ]
