@@ -69,6 +69,9 @@ const DetailApp = ({title, icon, description, androidUrl, iosUrl, screenShotUrls
   )
 }
 
+const max = 100;
+const min = 10;
+
 const AppHeader = ({title, icon, androidUrl, iosUrl}) => (
   <div className="header">
     <div className="row">
@@ -84,9 +87,9 @@ const AppHeader = ({title, icon, androidUrl, iosUrl}) => (
             <li><i className="fa fa-star active"/></li>
             <li><i className="fa fa-star active"/></li>
             <li><i className="fa fa-star active"/></li>
+            <li><i className="fa fa-star active"/></li>
             <li><i className="fa fa-star"/></li>
-            <li><i className="fa fa-star"/></li>
-            <li>(144)</li>
+            <li>{`(${Math.floor(Math.random() * (max - min + 1)) + min})`}</li>
           </ul>
         </div>
       </div>
