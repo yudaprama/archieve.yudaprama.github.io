@@ -13,9 +13,9 @@ export default function HTML(props) {
         />
         {props.headComponents}
 
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/orange.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/orange.css" rel="stylesheet" type="text/css"/>
       </head>
       <body className={'home-body'}>
         {props.preBodyComponents}
@@ -30,15 +30,15 @@ export default function HTML(props) {
         {props.postBodyComponents}
       </body>
 
-      <script src="js/jquery-2.1.0.min.js"/>
-      <script src="js/popper.js"/>
-      <script src="js/bootstrap.min.js"/>
-      <script src="js/scrollreveal.min.js"/>
-      <script src="js/parallax.min.js"/>
-      <script src="js/waypoints.min.js"/>
-      <script src="js/jquery.counterup.min.js"/>
-      <script src="js/imgfix.min.js"/>
-      <script src="js/custom.js"/>
+      <script src="/js/jquery-2.1.0.min.js"/>
+      <script src="/js/popper.js"/>
+      <script src="/js/bootstrap.min.js"/>
+      <script src="/js/scrollreveal.min.js"/>
+      <script src="/js/parallax.min.js"/>
+      <script src="/js/waypoints.min.js"/>
+      <script src="/js/jquery.counterup.min.js"/>
+      <script src="/js/imgfix.min.js"/>
+      <script src="/js/custom.js"/>
     </html>
   )
 }

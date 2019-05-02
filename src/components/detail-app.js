@@ -34,8 +34,8 @@ const DetailApp = ({title, icon, description, androidUrl, iosUrl, screenShotUrls
                     <div className="content">
                       <h5 className="title">Screenshots</h5>
                       <div className="row gallery">
-                        {screenShotUrls.map((screenShotUrl) => (
-                          <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        {screenShotUrls.map((screenShotUrl, index) => (
+                          <div key={index} className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                             <a className="gallery-item" href={screenShotUrl} title={title}>
                               <img src={screenShotUrl} className="img-fluid" alt=""/>
                             </a>
@@ -51,7 +51,7 @@ const DetailApp = ({title, icon, description, androidUrl, iosUrl, screenShotUrls
                       <div className="text">
                         <div className="version">
                           <ul>
-                            {highlights.map((highlight) => <li>{highlight}</li>)}
+                            {highlights.map((highlight, index) => <li key={index}>{highlight}</li>)}
                           </ul>
                         </div>
                       </div>
@@ -109,7 +109,7 @@ DetailApp.propTypes = {
   description: PropTypes.string.isRequired,
   androidUrl: PropTypes.string,
   iosUrl: PropTypes.string,
-  screenShotUrls: PropTypes.string.isRequired,
+  screenShotUrls: PropTypes.array.isRequired,
   highlights: PropTypes.array.isRequired,
 }
 
