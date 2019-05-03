@@ -111,20 +111,24 @@ function Promise() {
           <div className="col-lg-7 col-md-12 col-sm-12 col-xs-12 align-self-center">
             <ul className="features">
               <PromiseItem
-                title={'Design and UX that ensures your app will be loved and used'}
-                description={'Quisque nec consectetur arcu. Duis tellus ante, sodales sed molestie at, sagittis id neque. Quisque condimentum libero arcu. Mauris tellus sem, ultrices varius nisl at'}
+                title={'Discovery'}
+                description={'Apa yang akan dibuat? Siapa penggunanya? Apa kegunaanya? Untuk mengembangkan produk yang berfungsi dengan baik, pertanyaan tersebut harus terjawab dengan baik.'}
                 icon={'fa-flash'} />
               <PromiseItem
-                title={'Enterprise-grade development secures reliability and quality'}
-                description={'Quisque nec consectetur arcu. Duis tellus ante, sodales sed molestie at, sagittis id neque. Quisque condimentum libero arcu. Mauris tellus sem, ultrices varius nisl at'}
+                title={'Design'}
+                description={'Menggunakan informasi yang dikumpulkan dari Anda dalam tahap perencanaan, kami mulai mendesain sampai Anda puas dengan desain'}
                 icon={'fa-code-fork'} />
               <PromiseItem
-                title={'A proven and tested process guarantees your success'}
-                description={'Quisque nec consectetur arcu. Duis tellus ante, sodales sed molestie at, sagittis id neque. Quisque condimentum libero arcu. Mauris tellus sem, ultrices varius nisl at'}
+                title={'Develop'}
+                description={'Inilah saat proyek Anda benar-benar hidup. Kami mulai mendevelop server, database, backend, admin, android, ios, sesuai dengan kebutuhan Anda. Pada saat ini juga Anda terlibat untuk testing sehingga sesuai dengan permintaan Anda'}
                 icon={'fa-link'} />
               <PromiseItem
-                title={'Start-to-end app development agency'}
-                description={'Quisque nec consectetur arcu. Duis tellus ante, sodales sed molestie at, sagittis id neque. Quisque condimentum libero arcu. Mauris tellus sem, ultrices varius nisl at'}
+                title={'Deploy'}
+                description={'Setelah melakukan beberapa pengujian akhir, kami akan publikasi aplikasi ke App Store dan Play Store'}
+                icon={'fa-code'} />
+              <PromiseItem
+                title={'Deliver'}
+                description={'Terdapat admin untuk menambah dan mengubah konten yang bisa Anda gunakan.'}
                 icon={'fa-code'} />
             </ul>
           </div>
