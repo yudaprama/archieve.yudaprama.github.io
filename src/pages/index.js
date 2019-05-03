@@ -1,8 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import ServiceItem from "../components/service-item"
 import PromiseItem from "../components/promise-item"
@@ -21,7 +19,7 @@ const IndexPage = () => (
               <h1>Check out our mobile apps we're working on.</h1>
               <p>We design and develop mobile apps that delight your users and grow your
                 business. Enterprise-grade development combined with outstanding design.</p>
-              <a className="btn-white-line" href="#">ALL WORKS</a>
+              <a className="btn-white-line" href="#">SEMUA PORTOFOLIO</a>
             </div>
           </div>
         </div>
@@ -32,12 +30,17 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
+            <p style={{color:'#ffffff', fontSize:20, textAlign:'center', marginBottom:20}}>Beberapa Project Terakhir</p>
             <div className="apps">
-              <FeaturedAppIcon src={'https://is5-ssl.mzstatic.com/image/thumb/Purple127/v4/57/5e/25/575e253e-c07b-fc2c-2821-e282960d132b/mzl.lvohcjyz.png/146x0w.jpg'} />
-              <FeaturedAppIcon src={'https://is5-ssl.mzstatic.com/image/thumb/Purple127/v4/57/5e/25/575e253e-c07b-fc2c-2821-e282960d132b/mzl.lvohcjyz.png/146x0w.jpg'} />
-              <FeaturedAppIcon src={'https://is5-ssl.mzstatic.com/image/thumb/Purple127/v4/57/5e/25/575e253e-c07b-fc2c-2821-e282960d132b/mzl.lvohcjyz.png/146x0w.jpg'} />
-              <FeaturedAppIcon src={'https://is5-ssl.mzstatic.com/image/thumb/Purple127/v4/57/5e/25/575e253e-c07b-fc2c-2821-e282960d132b/mzl.lvohcjyz.png/146x0w.jpg'} />
-              <FeaturedAppIcon src={'https://is5-ssl.mzstatic.com/image/thumb/Purple127/v4/57/5e/25/575e253e-c07b-fc2c-2821-e282960d132b/mzl.lvohcjyz.png/146x0w.jpg'} />
+              <FeaturedAppIcon src={'https://lh3.googleusercontent.com/fG7qpSvv23ll3ulgoblu3L-6n3PQJW9BTpH2nIvD5sHkuUdxBvJFFpNgqAlElRJPZV8'} />
+              <FeaturedAppIcon src={'https://lh3.googleusercontent.com/um3olEPdvd8Jz1_yJb3wZToCqzmCzmdSk9sJxwUY6GDEmrGZiA6-ylSLe-puWI4oog'} />
+              <FeaturedAppIcon src={'https://lh3.googleusercontent.com/Xrm6RHpoo4LcRzd45GdBeL5Mk960Sd2BaV7v_NCGNSZuEIibfUC_inTgkra4gKmk3A'} />
+              <FeaturedAppIcon src={'https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/33/58/8f/33588f4e-aefe-ddb5-582d-d3bc8f5ce949/source/60x60bb.png'} />
+              <FeaturedAppIcon src={'https://lh3.googleusercontent.com/RXxVMSL68-PmqMVQ6zkmyggx3FSPvWczbKkeACT_PHNLb34e5nn48OdpfXlMDRrNVqW1'} />
+              <FeaturedAppIcon src={'https://is5-ssl.mzstatic.com/image/thumb/Purple111/v4/18/e7/ef/18e7ef7e-f118-e66b-d8cf-c923ccb5c771/source/60x60bb.jpg'} />
+              <FeaturedAppIcon src={'https://is4-ssl.mzstatic.com/image/thumb/Purple117/v4/61/75/66/61756631-350c-47b2-55fd-677eca3ea5e0/source/60x60bb.jpg'} />
+              <FeaturedAppIcon src={'https://lh3.googleusercontent.com/ii_u8o0l2VvSeVg8vwNE-0jlNUYzC8bpV7LMiiypamdYd9cMCKZtfhXIBOw19_nCYNI'} />
+              <FeaturedAppIcon src={'https://lh3.googleusercontent.com/FzGdJEWMdP5eMBcFrL-HyOpI-iYkvp36NXPH4nljZGB0QoZB7T454tnFihbWE8tQPw'} />
             </div>
           </div>
         </div>
