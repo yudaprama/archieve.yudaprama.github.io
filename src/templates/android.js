@@ -30,7 +30,7 @@ export default ({ data }) => {
       icon={android.icon}
       screenShotUrls={android.screenshots}
       title={android.title}
-      iosUrl={android.url} />
+      androidUrl={android.url} />
   )
 }
 

@@ -14,7 +14,7 @@ const Header = ({ siteTitle, headerWhite }) => (
             </Link>
             <ul className="nav">
               <li><Link to="/">HOME</Link></li>
-              <li><Link to="orange-our-work.html">OUR WORK</Link></li>
+              <li><Link to="/works">OUR WORK</Link></li>
               <li><Link to="orange-about-us.html">ABOUT US</Link></li>
               <li><Link to="orange-services.html">SERVICES</Link></li>
               <li><Link to="orange-blog.html">BLOG</Link></li>

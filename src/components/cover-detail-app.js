@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { Link } from "gatsby"
 
 const CoverDetailApp = ({appTitle}) => {
   return (
@@ -12,8 +13,8 @@ const CoverDetailApp = ({appTitle}) => {
             </div>
             <div className="col-lg-12 text-center">
               <ol className="breadcrumb">
-                <li><a href="orange-index.html">Home</a></li>
-                <li><a href="orange-our-work.html">Our Work</a></li>
+                <li><Link to="/">Home</Link></li>
+                {appTitle === "Semua Portofolio" ? null : <li><Link to="/works">Semua Portofolio</Link></li>}
                 <li className="active">{appTitle}</li>
               </ol>
             </div>
