@@ -9,7 +9,7 @@ import { Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Gaus" keywords={[`jasa`, 'pembuatan' , `aplikasi`, `mobile`, 'android', 'ios']} />
+    <SEO title="Gaus" keywords={["Jasa pembuatan aplikasi Android", "Jasa pembuatan aplikasi iOS", "jasa pembuatan aplikasi mobile", "mobile app developer indonesia", "Android app developer", "iOS app developer", "Mobile app designer", "Jakarta", "Indonesia"]} />
 
     <section className="welcome-area">
       <div className="welcome-bg"/>

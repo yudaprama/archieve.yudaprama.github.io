@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Jasa Pembuatan Aplikasi Mobile`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Jasa Pembuatan Aplikasi Mobile Android iOS`,
+    description: `Jasa Aplikasi Mobile Yang Murah dan Cepat, Berkualitas Tinggi, Berpengalaman`,
+    author: `yuda prama`,
+    keywords: ["Jasa pembuatan aplikasi Android", "Jasa pembuatan aplikasi iOS", "jasa pembuatan aplikasi mobile", "mobile app developer indonesia", "Android app developer", "iOS app developer", "Mobile app designer", "Jakarta", "Indonesia"]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
