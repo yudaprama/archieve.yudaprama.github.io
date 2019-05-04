@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { graphql, StaticQuery } from "gatsby"
+import { graphql, Link, StaticQuery } from "gatsby"
 
 import Header from "./header"
 
@@ -38,42 +38,25 @@ const Layout = ({ children, headerWhite }) => (
               <div className="col-lg-2 col-md-4 col-sm-6 col-6">
                 <h5>Helpful Links</h5>
                 <ul className="footer-nav">
-                  <li><a href="#"><i className="fa fa-angle-right"/><span>Our Work</span></a>
-                  </li>
-                  <li><a href="#"><i className="fa fa-angle-right"/><span>About Us</span></a>
-                  </li>
-                  <li><a href="#"><i className="fa fa-angle-right"/><span>Services</span></a>
-                  </li>
-                  <li><a href="#"><i className="fa fa-angle-right"/><span>Blog</span></a></li>
-                  <li><a href="#"><i className="fa fa-angle-right"/><span>Contact</span></a></li>
+                  <li><Link to={'/'}><i className="fa fa-angle-right"/><span>Home</span></Link></li>
+                  <li><Link to={'/works'}><i className="fa fa-angle-right"/><span>Portofolio</span></Link></li>
                 </ul>
               </div>
               <div className="col-lg-2 col-md-4 col-sm-6 col-6">
                 <h5>Latest Apps</h5>
                 <ul className="footer-nav">
-                  <li><a href="#"><i className="fa fa-angle-right"/><span>Dance School</span></a>
-                  </li>
-                  <li><a href="#"><i className="fa fa-angle-right"/><span>Coiner</span></a></li>
-                  <li><a href="#"><i className="fa fa-angle-right"/><span>Cloud Manager</span></a></li>
-                  <li><a href="#"><i className="fa fa-angle-right"/><span>Coding Life</span></a>
-                  </li>
-                  <li><a href="#"><i className="fa fa-angle-right"/><span>Smart Office</span></a>
-                  </li>
+                  <li><Link to={'/works/com-yudaprama-cryptoexplorer'}><i className="fa fa-angle-right"/><span>Crypto Watcher</span></Link></li>
+                  <li><Link to={'/works/com-yudapramadjunaedi-authorized'}><i className="fa fa-angle-right"/><span>authORIzed</span></Link></li>
+                  <li><Link to={'/works/com-yuda-movie'}><i className="fa fa-angle-right"/><span>Movie DB</span></Link></li>
+                  <li><Link to={'/works/com-yudapramadjunaedi-inventory'}><i className="fa fa-angle-right"/><span>SIM</span></Link></li>
+                  <li><Link to={'/works/com-yudapramadjunaedi-course'}><i className="fa fa-angle-right"/><span>Kursus</span></Link></li>
                 </ul>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-12">
-                <h5>Contact Us</h5>
+                <h5>Hubungi Kami</h5>
                 <div className="address">
-                  <p>455 West Orchard Street<br/>Kings Mountain, NC 28086</p>
-                  <p>Phone: (272) 211-7370</p>
-                  <p><span>E-Mail:</span><a href="#">support@yourbrand.com</a></p>
-                  <ul className="social">
-                    <li><a href="#"><i className="fa fa-facebook-square"/></a></li>
-                    <li><a href="#"><i className="fa fa-twitter-square"/></a></li>
-                    <li><a href="#"><i className="fa fa-linkedin-square"/></a></li>
-                    <li><a href="#"><i className="fa fa-google-plus-square"/></a></li>
-                    <li><a href="#"><i className="fa fa-github-square"/></a></li>
-                  </ul>
+                  <p>Jl Tebet Timur Dalam Raya No 26, Tebet, Jakarta</p>
+                  <p>WhatsApp: <a href="tel:+6282123603968">082123603968</a></p>
                 </div>
               </div>
             </div>

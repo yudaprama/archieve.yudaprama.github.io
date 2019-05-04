@@ -77,15 +77,12 @@ function Service() {
         <div className="row">
           <div className="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
             <div className="left-heading">
-              <h2 className="section-title">Start-to-end app development agency</h2>
+              <h2 className="section-title">Jasa Aplikasi Mobile Full-Service</h2>
             </div>
             <div className="left-text">
-              <p className="dark">Pellentesque posuere vestibulum lorem, ut efficitur erat tristique
-                sed. Ut vitae tincidunt ante. </p>
-              <p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu
-                elementum, quis congue risus volutpat. Praesent tortor nulla, ullamcorper.</p>
+              <p className="dark">Dengan pengalaman bertahun-tahun dan keahlian yang beragam dari tim kami memungkinkan untuk menyesuaikan dengan kebutuhan Anda pada setiap strategi, desain, pengembangan aplikasi, dan maintenance. Kami membantu Anda membuat kebutusan yang tepat.</p>
+              <p className="dark">Mulai dari layanan full-service sampai layanan sebagian sesuai kebutuhan (à la carte). Kami merancang desain intuitif yang dipoles oleh pengembang dengan kode yang rapi.</p>
             </div>
-            <a href="#" className="btn-primary-line">SERVICES</a>
           </div>
           <div className="offset-lg-1 col-lg-6 col-md-12 col-sm-12 align-self-center">
             <div className="row">
@@ -93,21 +90,21 @@ function Service() {
                 <ServiceItem
                   title={'Mobility Services Strategy'}
                   icon={'fa-clone'}
-                  description={'Morbi pharetra sapien ut mattis viverra. Curabitur sit amet mattis.'} />
+                  description={'Strategi dan perencanaan supaya menghasilkan aplikasi terbaik.'} />
                 <ServiceItem
                   title={'Native App Development'}
                   icon={'fa-connectdevelop'}
-                  description={'Morbi pharetra sapien ut mattis viverra. Curabitur sit amet mattis.'} />
+                  description={'Pengembangan aplikasi mobile native untuk Android dan iOS.'} />
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <ServiceItem
                   title={'Design & User Experience'}
                   icon={'fa-object-ungroup'}
-                  description={'Morbi pharetra sapien ut mattis viverra. Curabitur sit amet mattis.'} />
+                  description={'UI dan UX yang cantik untuk meningkatkan kepuasan pengguna.'} />
                 <ServiceItem
                   title={'Maintenance & Monitoring'}
                   icon={'fa-line-chart'}
-                  description={'Morbi pharetra sapien ut mattis viverra. Curabitur sit amet mattis.'} />
+                  description={'Penambahan fitur dan upgrade kompatibilitas Sistem Operasi'} />
               </div>
             </div>
           </div>
