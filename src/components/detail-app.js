@@ -86,8 +86,8 @@ const AppHeader = ({title, icon, androidUrl, iosUrl}) => (
       </div>
       <div className="col-lg-6 col-md-6 col-sm-12">
         <div className="download-buttons">
-          <a target={'_blank'} href={iosUrl}><img src="../images/download-apple-store.svg" alt=""/></a>
-          <a target={'_blank'} href={androidUrl}><img src="../images/download-google-play.svg" alt=""/></a>
+          <a target={'_blank'} href={iosUrl}><img src="/images/download-apple-store.svg" alt=""/></a>
+          <a target={'_blank'} href={androidUrl}><img src="/images/download-google-play.svg" alt=""/></a>
         </div>
       </div>
     </div>
