@@ -32,15 +32,33 @@ const IndexPage = () => (
           <div className="col-lg-12">
             <p style={{color:'#ffffff', fontSize:20, textAlign:'center', marginBottom:20}}>Beberapa Project Terakhir</p>
             <div className="apps">
-              <FeaturedAppIcon src={'https://lh3.googleusercontent.com/fG7qpSvv23ll3ulgoblu3L-6n3PQJW9BTpH2nIvD5sHkuUdxBvJFFpNgqAlElRJPZV8'} />
-              <FeaturedAppIcon src={'https://lh3.googleusercontent.com/um3olEPdvd8Jz1_yJb3wZToCqzmCzmdSk9sJxwUY6GDEmrGZiA6-ylSLe-puWI4oog'} />
-              <FeaturedAppIcon src={'https://lh3.googleusercontent.com/Xrm6RHpoo4LcRzd45GdBeL5Mk960Sd2BaV7v_NCGNSZuEIibfUC_inTgkra4gKmk3A'} />
-              <FeaturedAppIcon src={'https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/33/58/8f/33588f4e-aefe-ddb5-582d-d3bc8f5ce949/source/60x60bb.png'} />
-              <FeaturedAppIcon src={'https://lh3.googleusercontent.com/RXxVMSL68-PmqMVQ6zkmyggx3FSPvWczbKkeACT_PHNLb34e5nn48OdpfXlMDRrNVqW1'} />
-              <FeaturedAppIcon src={'https://is5-ssl.mzstatic.com/image/thumb/Purple111/v4/18/e7/ef/18e7ef7e-f118-e66b-d8cf-c923ccb5c771/source/60x60bb.jpg'} />
-              <FeaturedAppIcon src={'https://is4-ssl.mzstatic.com/image/thumb/Purple117/v4/61/75/66/61756631-350c-47b2-55fd-677eca3ea5e0/source/60x60bb.jpg'} />
-              <FeaturedAppIcon src={'https://lh3.googleusercontent.com/ii_u8o0l2VvSeVg8vwNE-0jlNUYzC8bpV7LMiiypamdYd9cMCKZtfhXIBOw19_nCYNI'} />
-              <FeaturedAppIcon src={'https://lh3.googleusercontent.com/FzGdJEWMdP5eMBcFrL-HyOpI-iYkvp36NXPH4nljZGB0QoZB7T454tnFihbWE8tQPw'} />
+              <FeaturedAppIcon
+                to={'/com-yudaprama-cryptoexplorer'}
+                src={'https://lh3.googleusercontent.com/fG7qpSvv23ll3ulgoblu3L-6n3PQJW9BTpH2nIvD5sHkuUdxBvJFFpNgqAlElRJPZV8'} />
+              <FeaturedAppIcon
+                to={'/com-yudapramadjunaedi-authorized'}
+                src={'https://lh3.googleusercontent.com/um3olEPdvd8Jz1_yJb3wZToCqzmCzmdSk9sJxwUY6GDEmrGZiA6-ylSLe-puWI4oog'} />
+              <FeaturedAppIcon
+                to={'com-yuda-movie'}
+                src={'https://lh3.googleusercontent.com/Xrm6RHpoo4LcRzd45GdBeL5Mk960Sd2BaV7v_NCGNSZuEIibfUC_inTgkra4gKmk3A'} />
+              <FeaturedAppIcon
+                to={'com-yudapramadjunaedi-fancyqr'}
+                src={'https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/33/58/8f/33588f4e-aefe-ddb5-582d-d3bc8f5ce949/source/60x60bb.png'} />
+              <FeaturedAppIcon
+                to={'com-yudaprama-candycrush'}
+                src={'https://lh3.googleusercontent.com/RXxVMSL68-PmqMVQ6zkmyggx3FSPvWczbKkeACT_PHNLb34e5nn48OdpfXlMDRrNVqW1'} />
+              <FeaturedAppIcon
+                to={'com-yudapramadjunaedi-inventory'}
+                src={'https://is5-ssl.mzstatic.com/image/thumb/Purple111/v4/18/e7/ef/18e7ef7e-f118-e66b-d8cf-c923ccb5c771/source/60x60bb.jpg'} />
+              <FeaturedAppIcon
+                to={'com-yudapramadjunaedi-course'}
+                src={'https://is4-ssl.mzstatic.com/image/thumb/Purple117/v4/61/75/66/61756631-350c-47b2-55fd-677eca3ea5e0/source/60x60bb.jpg'} />
+              <FeaturedAppIcon
+                to={'com-yudaprama-fifteenpuzzle'}
+                src={'https://lh3.googleusercontent.com/ii_u8o0l2VvSeVg8vwNE-0jlNUYzC8bpV7LMiiypamdYd9cMCKZtfhXIBOw19_nCYNI'} />
+              <FeaturedAppIcon
+                to={'com-yudaprama-tetris_pro'}
+                src={'https://lh3.googleusercontent.com/FzGdJEWMdP5eMBcFrL-HyOpI-iYkvp36NXPH4nljZGB0QoZB7T454tnFihbWE8tQPw'} />
             </div>
           </div>
         </div>
@@ -113,23 +131,23 @@ function Promise() {
               <PromiseItem
                 title={'Discovery'}
                 description={'Apa yang akan dibuat? Siapa penggunanya? Apa kegunaanya? Untuk mengembangkan produk yang berfungsi dengan baik, pertanyaan tersebut harus terjawab dengan baik.'}
-                icon={'fa-flash'} />
+                icon={'fa-coffee'} />
               <PromiseItem
                 title={'Design'}
                 description={'Menggunakan informasi yang dikumpulkan dari Anda dalam tahap perencanaan, kami mulai mendesain sampai Anda puas dengan desain'}
-                icon={'fa-code-fork'} />
+                icon={'fa-pencil'} />
               <PromiseItem
                 title={'Develop'}
                 description={'Inilah saat proyek Anda benar-benar hidup. Kami mulai mendevelop server, database, backend, admin, android, ios, sesuai dengan kebutuhan Anda. Pada saat ini juga Anda terlibat untuk testing sehingga sesuai dengan permintaan Anda'}
-                icon={'fa-link'} />
+                icon={'fa-code'} />
               <PromiseItem
                 title={'Deploy'}
                 description={'Setelah melakukan beberapa pengujian akhir, kami akan publikasi aplikasi ke App Store dan Play Store'}
-                icon={'fa-code'} />
+                icon={'fa-code-fork'} />
               <PromiseItem
                 title={'Deliver'}
                 description={'Terdapat admin untuk menambah dan mengubah konten yang bisa Anda gunakan.'}
-                icon={'fa-code'} />
+                icon={'fa-desktop'} />
             </ul>
           </div>
         </div>

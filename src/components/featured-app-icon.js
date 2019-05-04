@@ -1,12 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import RoundedIcon from "./rounded-icon"
+import { Link } from "gatsby"
 
-const FeaturedAppIcon = ({src}) => {
+const FeaturedAppIcon = ({src, to}) => {
   return (
-    <a href="orange-app-single.html" className="app-item">
+    <Link to={`/works/${to}`} className="app-item">
       <RoundedIcon src={src} />
-    </a>
+    </Link>
   )
 }
 
