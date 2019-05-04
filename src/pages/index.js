@@ -5,10 +5,11 @@ import SEO from "../components/seo"
 import ServiceItem from "../components/service-item"
 import PromiseItem from "../components/promise-item"
 import FeaturedAppIcon from "../components/featured-app-icon"
+import { Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Gaus" keywords={[`jasa`, 'pembuatan' , `aplikasi`, `mobile`, 'android', 'ios']} />
 
     <section className="welcome-area">
       <div className="welcome-bg"/>
@@ -16,10 +17,9 @@ const IndexPage = () => (
         <div className="container">
           <div className="row">
             <div className="offset-lg-3 offset-md-2 col-lg-6 col-md-8 col-sm-12">
-              <h1>Check out our mobile apps we're working on.</h1>
-              <p>We design and develop mobile apps that delight your users and grow your
-                business. Enterprise-grade development combined with outstanding design.</p>
-              <a className="btn-white-line" href="#">SEMUA PORTOFOLIO</a>
+              <h1>Jasa Aplikasi Mobile Yang Memahami Anda</h1>
+              <p>Kami membantu klien mengembangkan bisnis yang ramping dan gesit dengan mengurangi <b>biaya</b> dan <b>waktu</b> development sehingga bisa <b>secepatnya release ke pasar dengan biaya yang murah</b></p>
+              <Link className="btn-white-line" to={'/works'}>SEMUA PORTOFOLIO</Link>
             </div>
           </div>
         </div>
@@ -30,7 +30,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <p style={{color:'#ffffff', fontSize:20, textAlign:'center', marginBottom:20}}>Beberapa Project Terakhir</p>
+            <p style={{color:'#ffffff', fontSize:20, textAlign:'center', marginBottom:20}}>Beberapa Portofolio Terakhir</p>
             <div className="apps">
               <FeaturedAppIcon
                 to={'/com-yudaprama-cryptoexplorer'}

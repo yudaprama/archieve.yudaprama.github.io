@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import { graphql, StaticQuery } from "gatsby"
 
 import Header from "./header"
 
@@ -31,9 +31,8 @@ const Layout = ({ children, headerWhite }) => (
             <div className="row">
               <div className="col-lg-5 col-md-12 col-sm-12">
                 <img src="../images/orange-logo-white.svg" className="logo" alt=""/>
-                  <div className="text">Morbi convallis bibendum urna ut viverra. Maecenas quis
-                    consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet
-                    ullamcorper phasellus semper.
+                  <div className="text">
+                    <p>Kami membantu klien mengembangkan bisnis yang ramping dan gesit dengan mengurangi <b>biaya</b> dan <b>waktu</b> development sehingga bisa <b>secepatnya release ke pasar dengan biaya yang murah</b></p>
                   </div>
               </div>
               <div className="col-lg-2 col-md-4 col-sm-6 col-6">
@@ -80,7 +79,7 @@ const Layout = ({ children, headerWhite }) => (
             </div>
             <div className="row">
               <div className="col-lg-12">
-                <p className="copyright">© 2018 Gaus. All Rights Reserved.</p>
+                <p className="copyright">{`© ${new Date().getFullYear()} Gaus. All Rights Reserved.`}</p>
               </div>
             </div>
           </div>
