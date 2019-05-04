@@ -20,7 +20,10 @@ class Header extends Component {
                 <ul className="nav" style={this.state.showMenu ? {display: "block"} : null}>
                   <li><Link to="/">HOME</Link></li>
                   <li><Link to="/works">SEMUA PORTOFOLIO</Link></li>
-                  <li><a onClick={()=> window.scrollTo(0,document.body.scrollHeight)} className="btn-nav-line">HUBUNGI KAMI</a></li>
+                  <li><a onClick={()=> {
+                    this.setState({showMenu:!this.state.showMenu})
+                    window.scrollTo(0,document.body.scrollHeight)
+                  }} className="btn-nav-line">HUBUNGI KAMI</a></li>
                 </ul>
                 <a onClick={() => this.setState({showMenu:!this.state.showMenu})} className='menu-trigger'>
                   <span>Menu</span>
