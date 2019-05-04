@@ -9,8 +9,8 @@ const Header = ({ siteTitle, headerWhite }) => (
         <div className="col-lg-12">
           <nav className="main-nav">
             <Link to="/" className="logo">
-              <img src="../images/orange-logo-white.svg" className="light-logo" alt="Gaus"/>
-              <img src="../images/orange-logo-dark.svg" className="dark-logo" alt="Gaus"/>
+              <img src="/images/orange-logo-white.svg" className="light-logo" alt="Gaus"/>
+              <img src="/images/orange-logo-dark.svg" className="dark-logo" alt="Gaus"/>
             </Link>
             <ul className="nav">
               <li><Link to="/">HOME</Link></li>

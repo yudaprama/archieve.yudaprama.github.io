@@ -7,12 +7,10 @@ var _0x4d20 = ["jQuery", "use strict", "hostname", "location", "demo.tempload.co
 	if (verifyjQuery(_0x4d20[8])[_0x4d20[7]]) {
 		verifyjQuery(_0x4d20[13])[_0x4d20[15]](_0x4d20[9], _0x4d20[10] + verifyjQuery(_0x4d20[13])[_0x4d20[12]](_0x4d20[11]) + _0x4d20[14]);
 	}
-	if (verifyjQuery(_0x4d20[16])[_0x4d20[7]]) {
-		verifyjQuery(_0x4d20[16])[_0x4d20[22]](_0x4d20[17], function() {
-			verifyjQuery(this)[_0x4d20[19]](_0x4d20[18]);
-			verifyjQuery(_0x4d20[21])[_0x4d20[20]](200);
-		});
-	}
+  verifyjQuery(_0x4d20[16])[_0x4d20[22]](_0x4d20[17], function() {
+    verifyjQuery(this)[_0x4d20[19]](_0x4d20[18]);
+    verifyjQuery(_0x4d20[21])[_0x4d20[20]](200);
+  });
 	window[_0x4d20[23]] = new scrollReveal;
 	if (verifyjQuery(_0x4d20[24])[_0x4d20[7]]) {
 		verifyjQuery(_0x4d20[26])[_0x4d20[25]]({
