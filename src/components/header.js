@@ -15,10 +15,7 @@ const Header = ({ siteTitle, headerWhite }) => (
             <ul className="nav">
               <li><Link to="/">HOME</Link></li>
               <li><Link to="/works">PORTOFOLIO</Link></li>
-              <li><Link to="orange-about-us.html">ABOUT US</Link></li>
-              <li><Link to="orange-services.html">SERVICES</Link></li>
-              <li><Link to="orange-blog.html">BLOG</Link></li>
-              <li><Link to="orange-contact.html" className="btn-nav-line">CONTACT</Link></li>
+              <li><Link to="orange-contact.html" className="btn-nav-line">HUBUNGI KAMI</Link></li>
             </ul>
             <a className='menu-trigger'>
               <span>Menu</span>
