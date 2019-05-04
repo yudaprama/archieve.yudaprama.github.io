@@ -75,7 +75,7 @@ const AppHeader = ({title, icon, androidUrl, iosUrl}) => (
     <div className="row">
       <div className="col-lg-1 col-md-2 col-sm-12">
         <div className="icon">
-          <img style={{borderRadius:'20%'}} src={icon} className="img-fluid" alt=""/>
+          <img style={{borderRadius:'20%', width:46, height:46}} src={icon} className="img-fluid" alt=""/>
         </div>
       </div>
       <div className="col-lg-5 col-md-4 col-sm-12">
