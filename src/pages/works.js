@@ -17,9 +17,10 @@ export default ({ data }) => {
         <div className="page-bottom pbottom-70">
           <div className="container">
             <div className="row">
-              {android.nodes.map((item) => {
+              {android.nodes.map((item, index) => {
                 const {appId, size, title, icon, summary, price, category} = item;
                 return <AppItem
+                  key={appId}
                   id={appId}
                   icon={icon}
                   category={category}
@@ -31,6 +32,7 @@ export default ({ data }) => {
               {ios.nodes.map((item) => {
                 const {bundleId, size, title, icon, summary, price, category} = item;
                 return <AppItem
+                  key={bundleId}
                   id={bundleId}
                   icon={icon}
                   category={category.join(',')}
