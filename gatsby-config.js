@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://yudaprama.com`,
     title: `Jasa Pembuatan Aplikasi Mobile Android iOS`,
     description: `Jasa Aplikasi Mobile Yang Murah dan Cepat, Berkualitas Tinggi, Berpengalaman`,
     author: `yuda prama`,
