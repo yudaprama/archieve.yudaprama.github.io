@@ -35,5 +35,6 @@
 <url> <loc>https://yudaprama.com/works/com-yudaprama-sensor</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yudaprama.com/works/com-yuda-cetak</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yudaprama.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yudaprama.com/policy-com-yudaprama-whatsweb/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yudaprama.com/works/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
