@@ -56,7 +56,7 @@ const Layout = ({ children, headerWhite }) => (
                 <h5>Hubungi Kami</h5>
                 <div className="address">
                   <p>Jl Tebet Timur Dalam Raya No 26, Tebet, Jakarta</p>
-                  <p>WhatsApp: <a href="tel:+6282123603968">082123603968</a></p>
+                  <p>WhatsApp: <a href="https://wa.me/6282123603968?text=Saya ingin bertanya perihal jasa aplikasi">082123603968</a></p>
                 </div>
               </div>
             </div>
